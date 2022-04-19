@@ -13,6 +13,8 @@ p {
     width: 100%;
     max-width: 500px;
     font-size: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 
