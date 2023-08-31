@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 .main-content {
     max-width: 500px;
     text-align: center;
@@ -19,21 +23,20 @@
 body {
     text-align: center;
     color: white;
-    background: url("lego.jpg") ;
+    background: url("lego.webp") ;
     font-family: Arial;  
     user-select: none; 
     margin: unset;
 }
 
-p {
+p, ol {
     background: #2d2d2f;
     display: inline-block;
     width: 100%;
     
     font-size: 1rem;
-    padding-top: 1rem;
+    padding: 1rem;
     border-radius: 5px;
-    padding-bottom: 1rem;
 }
 
 
